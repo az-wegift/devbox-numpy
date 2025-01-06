@@ -11,6 +11,9 @@
   },
   "shell": {
     "scripts": {
+      "clean": [
+        "rm -rf .venv"
+      ],
       "test": [
         "./test_poetry.sh"
       ]
